@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap");
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#cabecalho {
+  background: #ef653c;
+  padding: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+#welcome {
+  width: 940x;
+  margin: 0 auto;
+  width: 40%;
+  border-radius: 10%;
+}
+.informativo {
+  width: 50%;
+}
+#info {
+  color: black;
+}
+
+.main {
+  width: 940x;
+  margin: 0 auto;
+  background-color: #4b4fa1;
+  padding: 10%;
+}
+h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #ffff;
+  padding: 10px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffff;
+  padding: 10px;
+}
+.descricao {
+  width: 940x;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+h1 {
+  color: aliceblue;
+}
+p {
+  color: aliceblue;
+}
+
+.informacoesimportantes {
+  width: 940x;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding: 10px;
+  list-style-type: circle;
+}
+
+.agendamento {
+  width: 940x;
+  margin: 0 auto;
+  padding: 10%;
+  background: aliceblue;
+}
+#agendamento {
+  color: black;
+}
+form {
+  margin: 40px 0;
+}
+
+form label,
+form select {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+#form {
+  color: black;
+}
+.enviar {
+  width: 40%;
+  padding: 15px 0;
+  background: #f4a460;
+  color: #fff8dc;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: 1s background;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: #FF7F50;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - landing-page</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1.0">
+  <title>FCamara - Volta aos escritórios</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div id="cabecalho">
+      <div class="informativo">
+        <h3>Trabalho Presencial</h3>
+        <h2>Bem vindo de volta #sanguelaranja</h2>
+        <p class="descricao">Com o avanço da vacinação já podemos voltar aos nossos escritórios, com muito cuidado e segurança!</p>
+      </div>
+      <img id="welcome" src="https://designstripe-secure.imgix.net/scene-snapshots/8db04350-0ed1-49b2-a922-64a90b6fb659?auto=format&fit=clip&h=400&s=0138a6400fe61fc208038e24ff58a012">
+    </div>
+  </header>
+  <div class="main">
+    <h3> informações importantes</h3>
+    <h2>A volta aos escritórios é opcional !</h2>
+    <ul class="informacoesimportantes">
+      <li> Os escritórios voltarão a ficar abertos no horário das 8h às 18h.</li>
+      <li> Será medida a temperatura ao chegar no escritório.</li>
+      <li>Todos os consultores deverão usar máscaras dentro das acomodações dos escritórios.</li>
+      <li>Nas mesas existem adesivos sinalizando onde os #SangueLaranjas devem sentar, para que haja o distanciamento necessário.</li>
+      <li>Pessoas que estiverem sentindo algum sintoma não devem ir trabalhar presencialmente, a indicação é para que permaneçam em casa.</li>
+      <li>Os escritórios só podem comportar até 40% dos consultores, conforme a legislação.</li>
+      <li>O retorno ao escritório só é possível através de agendamento</li>
+    </ul>
+  </div>
+  <div class="agendamento">
+    <h3 id="agendamento">agendamento</h3>
+    <h2 id="form">Agende aqui!</h2>
+    <br>
+    <form>
+      <label for="nomesobrenome"> Nome e sobrenome </label>
+      <input type="text" id="nomesobrenome" class="input-padrao" required>
+      <fildset>
+        <label>Escolha o escritório</label>
+
+        <label for="radio-saopaulo"><input type="radio" name="local" id="radio-saopaulo" value="São Paulo"> São Paulo</label>
+
+        <label for="radio-santos"><input type="radio" name="local" id="radio-santos" value="Santos"> Santos</label>
+
+      </fildset>
+
+      <fildset>
+        <label for="data">Escolha a data</label>
+        <input type="date" id="data" min="2021-10-01" class="input-padrao" required>
+      </fildset>
+
+      <fildset>
+        <label>Escolha uma estação de trabalho</label>
+        <select>
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+        </select>
+      </fildset>
+
+      <div>
+        <input type="submit" value="Agendar" class="enviar">
+      </div>
+
+    </form>
+  </div>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
